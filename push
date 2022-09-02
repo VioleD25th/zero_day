@@ -1,5 +1,5 @@
 #!/bin/bash
 git add .
 read FMT
-printf "Enter commit message: $(git commit -m FMT)" 
+printf "Enter commit message: $(git commit -m $FMT)" 
 git push
